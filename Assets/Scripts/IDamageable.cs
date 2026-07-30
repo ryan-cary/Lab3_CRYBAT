@@ -1,0 +1,8 @@
+using UnityEngine;
+
+public interface IDamageable
+{
+    public float GetHealth();
+
+    public void TakeDamage();
+}
