@@ -18,7 +18,7 @@ public class Cannonball : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy")) 
         {
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
-            enemy.TakeDamage(damage);
+            enemy.TakeDamage(_damage);
         }
     }
 }
