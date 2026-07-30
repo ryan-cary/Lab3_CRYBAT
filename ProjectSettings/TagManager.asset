@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Cannonball
+  - Enemy
+  - Box
+  - Floor
   layers:
   - Default
   - TransparentFX
