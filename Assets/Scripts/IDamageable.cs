@@ -4,5 +4,5 @@ public interface IDamageable
 {
     public float GetHealth();
 
-    public void TakeDamage();
+    public void TakeDamage(float damage);
 }
