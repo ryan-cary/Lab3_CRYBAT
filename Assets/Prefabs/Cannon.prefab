@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a06ddffe70b1b564498c248d9d5b83c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cannon
-  _ball_prefab: {fileID: 2972719708405499438, guid: 86aefb7fc1214f645ad64023537911a2, type: 3}
+  _ball_prefab: {fileID: 2972719708405499438, guid: e2b466ef60718479d91425c36b5946b1, type: 3}
   _baseFirePower: 15
 --- !u!212 &7127476180316394487
 SpriteRenderer:
