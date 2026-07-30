@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Cannon : MonoBehaviour
 {
-    [SerializeField] private Cannonball ball_prefab;
-    [SerializeField] private float baseFirePower;
+    [SerializeField] private Cannonball _ball_prefab;
+    [SerializeField] private float _baseFirePower = 15;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,5 +30,8 @@ public class Cannon : MonoBehaviour
     void Fire()
     {
         Debug.Log("Firing the cannon!!");
+
+        Cannonball liveBall = Instantiate(_ball_prefab, transform.position, transform.rotation);
+        liveBall.GetComponent<Rigidbody2D>().AddForce((transform.rotation * Vector3.up) * _baseFirePower, ForceMode2D.Impulse);
     }
 }
