@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
 
     // ------ End Singleton Setup ------
 
+    [SerializeField] private GameObject cannonPrefab;
+    [SerializeField] private Vector2 startPosition;
+
     int score;
 
     bool isPlaying;
@@ -49,6 +52,6 @@ public class GameManager : MonoBehaviour
 
     void SpawnCannon() 
     {
-        Debug.Log("Cannon spawned");
+        Instantiate(cannonPrefab, startPosition, Quaternion.identity);
     }
 }
