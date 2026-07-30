@@ -2,7 +2,13 @@ using UnityEngine;
 
 public class Cannonball : MonoBehaviour
 {
-    float damage;
+    [SerializeField] float _damage;
+    [SerializeField] float _lifetime = 5;
+
+    void Start()
+    {
+        Destroy(gameObject, _lifetime);
+    }
 
     void OnCollisionEnter2D (Collision2D collision)
     {
