@@ -201,8 +201,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Story
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75465b192b891478eb6d5e6910541c34, type: 2}
+  m_sharedMaterial: {fileID: -1695931355703985141, guid: 75465b192b891478eb6d5e6910541c34, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CANNONBALL
+  m_text: CANNON BALL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 75465b192b891478eb6d5e6910541c34, type: 2}
   m_sharedMaterial: {fileID: -1695931355703985141, guid: 75465b192b891478eb6d5e6910541c34, type: 2}
@@ -721,8 +721,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 75465b192b891478eb6d5e6910541c34, type: 2}
+  m_sharedMaterial: {fileID: -1695931355703985141, guid: 75465b192b891478eb6d5e6910541c34, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
